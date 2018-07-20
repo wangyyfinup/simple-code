@@ -1,0 +1,45 @@
+2018-07-17 15:13:39,388 log_helper.py[line:14] INFO url:/api/login/ ip:127.0.0.1 params(post):{'dict': {'_method': ['put'], 'username': ['admin'], 'password': ['123456'], 'verify': ['ces9']}}
+2018-07-17 15:49:13,420 log_helper.py[line:14] INFO url:/api/product_class/ ip:127.0.0.1 params(get):_search=false&nd=1531813753377&rows=20&page=1&sidx=id&sord=desc
+2018-07-17 15:49:13,458 log_helper.py[line:24] INFO 连接数据库失败：()
+Traceback (most recent call last):
+  File "E:\python\simple\code\common\db_helper.py", line 24, in read
+    conn = psycopg2.connect(database=db_name, user=db_user, password=db_pass, host=db_host, port=db_port)
+  File "E:\Program Files\Python\Python36\lib\site-packages\psycopg2\__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+
+程序调用堆栈的日志：main.py(<module>:110)->bottle.py(run:3123)->bottle.py(run:2782)->socketserver.py(serve_forever:238)->socketserver.py(_handle_request_noblock:317)->socketserver.py(process_request:348)->socketserver.py(finish_request:361)->socketserver.py(__init__:696)->simple_server.py(handle:133)->handlers.py(run:137)->middleware.py(__call__:156)->bottle.py(__call__:979)->bottle.py(wsgi:954)->bottle.py(_handle:862)->bottle.py(wrapper:1740)->product_class.py(callback:38)->db_helper.py(read:29)->log_helper.py(error:21)->
+
+2018-07-17 15:49:17,055 log_helper.py[line:14] INFO url:/api/product_class/ ip:127.0.0.1 params(get):_search=false&nd=1531813757042&rows=20&page=1&sidx=id&sord=desc
+2018-07-17 15:49:17,088 log_helper.py[line:24] INFO 连接数据库失败：()
+Traceback (most recent call last):
+  File "E:\python\simple\code\common\db_helper.py", line 24, in read
+    conn = psycopg2.connect(database=db_name, user=db_user, password=db_pass, host=db_host, port=db_port)
+  File "E:\Program Files\Python\Python36\lib\site-packages\psycopg2\__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+
+程序调用堆栈的日志：main.py(<module>:110)->bottle.py(run:3123)->bottle.py(run:2782)->socketserver.py(serve_forever:238)->socketserver.py(_handle_request_noblock:317)->socketserver.py(process_request:348)->socketserver.py(finish_request:361)->socketserver.py(__init__:696)->simple_server.py(handle:133)->handlers.py(run:137)->middleware.py(__call__:156)->bottle.py(__call__:979)->bottle.py(wsgi:954)->bottle.py(_handle:862)->bottle.py(wrapper:1740)->product_class.py(callback:38)->db_helper.py(read:29)->log_helper.py(error:21)->
+
+2018-07-17 15:49:50,662 log_helper.py[line:14] INFO url:/api/product_class/ ip:127.0.0.1 params(get):_search=false&nd=1531813790657&rows=20&page=1&sidx=id&sord=desc
+2018-07-17 15:49:50,696 log_helper.py[line:24] INFO 连接数据库失败：()
+Traceback (most recent call last):
+  File "E:\python\simple\code\common\db_helper.py", line 24, in read
+    conn = psycopg2.connect(database=db_name, user=db_user, password=db_pass, host=db_host, port=db_port)
+  File "E:\Program Files\Python\Python36\lib\site-packages\psycopg2\__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+
+程序调用堆栈的日志：main.py(<module>:110)->bottle.py(run:3123)->bottle.py(run:2782)->socketserver.py(serve_forever:238)->socketserver.py(_handle_request_noblock:317)->socketserver.py(process_request:348)->socketserver.py(finish_request:361)->socketserver.py(__init__:696)->simple_server.py(handle:133)->handlers.py(run:137)->middleware.py(__call__:156)->bottle.py(__call__:979)->bottle.py(wsgi:954)->bottle.py(_handle:862)->bottle.py(wrapper:1740)->product_class.py(callback:38)->db_helper.py(read:29)->log_helper.py(error:21)->
+
+2018-07-17 15:50:07,997 log_helper.py[line:14] INFO url:/api/about/ ip:127.0.0.1
+2018-07-17 15:50:08,040 log_helper.py[line:24] INFO 连接数据库失败：()
+Traceback (most recent call last):
+  File "E:\python\simple\code\common\db_helper.py", line 24, in read
+    conn = psycopg2.connect(database=db_name, user=db_user, password=db_pass, host=db_host, port=db_port)
+  File "E:\Program Files\Python\Python36\lib\site-packages\psycopg2\__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+
+程序调用堆栈的日志：main.py(<module>:110)->bottle.py(run:3123)->bottle.py(run:2782)->socketserver.py(serve_forever:238)->socketserver.py(_handle_request_noblock:317)->socketserver.py(process_request:348)->socketserver.py(finish_request:361)->socketserver.py(__init__:696)->simple_server.py(handle:133)->handlers.py(run:137)->middleware.py(__call__:156)->bottle.py(__call__:979)->bottle.py(wsgi:954)->bottle.py(_handle:862)->bottle.py(wrapper:1740)->about.py(callback:15)->db_helper.py(read:29)->log_helper.py(error:21)->
+
